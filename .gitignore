@@ -1,0 +1,9 @@
+# mac specific
+*DS_Store
+
+# development
+*.idea
+
+# python
+*.pyc
+*.__init__
