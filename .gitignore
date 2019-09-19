@@ -7,3 +7,6 @@
 # python
 *.pyc
 *.__init__
+
+# custom
+src/config.json
