@@ -10,3 +10,10 @@
 
 # custom
 src/config.json
+data/SePL.csv
+data/name2gender.json
+data/tweet_ids.txt
+data/tweets_manual_annotated.csv
+data/users_fully_hydrated.json
+data/users_with-loc.json
+data/users_with-loc_with-gender.json
