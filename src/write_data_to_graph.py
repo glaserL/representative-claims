@@ -54,8 +54,6 @@ def execute(graph, command, args):
 if(__name__ == "__main__"):
 
     parser = argparse.ArgumentParser(description='Params')
-    parser.add_argument('--inf', nargs='?', type=str, help='in case the function you are using needs a file to read from.')
-    parser.add_argument('--outf', nargs='?', type=str, help='in case the function you are using needs a file to write to.')
     parser.add_argument('--commands', nargs = '*', type=str, help= 'interesting attribute to stream line cluttered jsonfiles')
     parser.add_argument('--dg', help='Will delete the whole graph before doing anything.', action='store_true')
     args = parser.parse_args()
