@@ -1,3 +1,0 @@
-[submodule "src/GetOldTweets"]
-	path = src/GetOldTweets
-	url = https://github.com/Jefferson-Henrique/GetOldTweets-python
