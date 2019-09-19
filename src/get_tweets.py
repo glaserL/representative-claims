@@ -58,5 +58,5 @@ for i, batch in enumerate(id_batches):
         already_scraped += 1
     if len(buffer) > max_buffer_size:
         print(f"Adding {len(buffer)} tweets, already scraped approx. {already_scraped}, {len(tweet_ids)-already_scraped} remaining.")
-        append_to_json("tweets_fully_hydrated.json", buffer)
+        append_to_json("../data/tweets_fully_hydrated.json", buffer)
         buffer.clear()
