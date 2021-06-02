@@ -30,6 +30,6 @@ srsly==0.1.0
 thinc==7.0.8
 tqdm==4.36.1
 tweepy==3.8.0
-urllib3==1.24.3
+urllib3==1.26.5
 wasabi==0.2.2
 wcwidth==0.1.7
